@@ -5,7 +5,7 @@ body {
 
 #container {
     background-color: white;
-    width: 1200px;
+    width: 65%;
     margin: 20px auto;
     border: 2px solid black;
     padding: 20px;
@@ -15,14 +15,28 @@ body {
     width: 100%;
 }
 
+#col1 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#col2 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
 .heading_style {
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 1px 2px #1dd41d;
 }
 
 img {
     display: block;
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
 }
 nav {
     text-align: center;
@@ -55,6 +69,10 @@ nav li a {
 nav a:hover {
     background-color: white;
     color: black;
+}
+
+#two_col {
+    display: flex;
 }
 
 h1, h2, h3 {
