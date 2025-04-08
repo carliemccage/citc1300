@@ -11,26 +11,50 @@ body {
     padding: 20px;
 }
 
+#banner {
+    width: 100%;
+}
+
+.heading_style {
+    text-shadow: 2px 2px 2px #000;
+}
+
 img {
     display: block;
     margin: 0 auto;
     width: 1000px;
 }
-
 nav {
     text-align: center;
     margin: 20px 0;
+    background-color: chartreuse;
+    padding: 5px;
 }
 
-nav a {
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
     font-size: 24px;
-    color: black;
-    margin: 0 20px;
     font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px; 
+    width: 125px;
+    height: 40px; 
+    line-height: 40px;
 }
 
 nav a:hover {
-    text-decoration: none;
+    background-color: white;
+    color: black;
 }
 
 h1, h2, h3 {
