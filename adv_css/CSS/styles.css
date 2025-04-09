@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+#two_column {
+    display: flex;
+}
+
 #col1 {
     width: 50%;
     border: 2px solid black;
@@ -70,10 +74,6 @@ nav li a {
 nav a:hover {
     background-color: white;
     color: black;
-}
-
-#two_col {
-    display: flex;
 }
 
 h1, h2, h3 {
