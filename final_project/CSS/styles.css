@@ -1,7 +1,7 @@
 /* Global Style */
 
 body {
-    background: color #ff008d;;
+    background-color: #33caf4;
 }
 
 img {
@@ -12,6 +12,15 @@ img {
 
 #container {
     background-color: #ff008d;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #3bcdf5;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Mobile Styles */
@@ -37,7 +46,7 @@ nav li a {
     display: block;
     height: 40px;
     line-height: 40px;
-    background-color: #ff008d;
+    background-color: white;
     color: black;
     font-size: 24px;
     text-decoration: none;
@@ -54,7 +63,7 @@ main {
 
 h1, h2, h3 {
     text-align: center;
-    color: #ff008d;
+    color: #3bcdf5;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -97,7 +106,7 @@ footer {
     }
 
     nav li a {
-        background-color: gold;
+        background-color: rgb(57, 221, 226);
     }
 
     #multi_col {

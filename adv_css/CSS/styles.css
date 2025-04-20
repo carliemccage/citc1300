@@ -1,10 +1,10 @@
 
 body {
-    background-color: darkcyan;
+    background-color: #ff67b3;
 }
 
 #container {
-    background-color: white;
+    background-color: #ff67b3;
     width: 65%;
     margin: 20px auto;
     border: 2px solid black;
@@ -34,7 +34,7 @@ body {
 }
 
 .heading_style {
-    text-shadow: 2px 1px 2px #1dd41d;
+    text-shadow: 2px 1px 2px #ff008d;
 }
 
 img {
@@ -46,7 +46,7 @@ img {
 nav {
     text-align: center;
     margin: 20px 0;
-    background-color: chartreuse;
+    background-color: rgb(56, 229, 249);
     padding: 5px;
 }
 
